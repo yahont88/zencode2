@@ -1,12 +1,101 @@
 body {
-    background-color: rgb(247, 196, 121);
+   background-color: #96f7bf;
+   color: #A64A32;
+   background-image: url(./bg-img.jpg);
+   background-position: bottom right;
+   background-repeat: no-repeat;
+   background-size: 40px;
 
 }
-h1 {
-    color:rgb(83, 40, 40)
+.headline{
+    color: rgba(3, 71, 80, 0.7);
+}
+#headline0{
+    color: rgba(3, 71, 80, 0.7);
+    font-size: 50px;
+    font-weight: 800;
+    /*margin: 10px 500px 100px 500px;*/
+    text-align: center
+    
+
+} 
+#headline1{
+font-size: 30px;
+font-weight: 400;
+font-style:  italic;
+text-transform: uppercase
+}
+#headline2{
+    font-size: 30px;
+    font-weight: 400;
+    font-style:  italic;
+    text-transform: lowercase;
+    border: 5px solid green;
+    border-style: groove;
+    margin: 10px 300px 10px 500px;
+    text-align: center;
+    position: relative;
+    right: 77;
+    bottom: 15px;
 }
 
+ .nav a{
+    color: #e85a2280;
+    outline: red;/*not work*/
+ }
+ .nav a:hover{
+     text-decoration: none;
 
-#headline1 {
-    color:red
+ }
+ .nav a:active{
+   color: crimson;/*not work*/
+    
+}
+.nav a:focus{
+   color: darkblue;
+}
+aside #nav_main  {
+width: 80px;
+height: 55px;
+border: 5px solid palevioletred;
+background-color: #81B6CF;
+border-style: groove;
+} 
+
+
+.aboutme1{
+    list-style-type: circle;
+    position: relative;
+    top: 14px;
+    right: 337px;
+    font-style: oblique;
+}
+.aboutme2 #aboutme2 {
+    list-style-type: lower-roman;/*not work, again... поэтому прописал непосредственно в индексе. отсюда свойство не читается*/
+    box-shadow: 16px 14px 14px -8px;
+}
+#answer{
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px coral;
+
+}
+#copyright{
+font-size: 10px;
+/*padding: 10% 40% 10% 40%}*/
+text-align: center;
+}
+.pluses{
+   box-shadow: 16px 14px 14px -8px;
+}
+.information{
+    display: flex;
+    height: 200px;
+flex-direction: row;
+
+}
+#aboutme0{
+    position: relative;
+    left: 159px;
+    top: 12px;
+    transform: scale(1.3);
 }
